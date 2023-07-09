@@ -602,6 +602,9 @@ input:valid ~ label {
 		.results::before {
 			width: 150%;
 		}
+		.results h3{
+			padding: 0;
+		}
 
 		#button-three{
 			position: absolute;
