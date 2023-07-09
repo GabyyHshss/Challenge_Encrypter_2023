@@ -180,6 +180,7 @@ nav:hover {
 	}
 }
 /* MAIN */
+
 /*input*/
 
 .input-field {
@@ -634,6 +635,67 @@ input:valid ~ label {
 	bottom: 42%;
 
 	}
+}
+@media (max-width:412px) and (max-height:850px){
+	nav{
+		margin-top: 0;
+		position: absolute;
+		height: 18%;
+		width: 30%;
+	}
+	.logo img{
+		width: 100px;
+		height: 100px;
+	}
+	.logo span{
+		top: 14px;
+		left: 2px;
+	}
+	.input-field{
+		height: 280px;
+	}
+	.input-field .gradientText{
+		margin-bottom: 0;
+	}
+	.input-field label {
+		margin-bottom: 5px;
+	}
+	.alert{
+		margin-bottom: 0;
+	}
+	.results{
+		margin-top: 20px;
+	}
+	#button-three{
+		display: inline-flex;
+		position: absolute;
+		left: 5%;
+		width: 150px;
+		height: 60px;
+		border-radius: 20px;
+		margin-bottom: 10px;
+
+		
+	}
+	#bspan-three{
+		position: absolute;
+		border-radius: 20px;
+		width: 142px;
+		height: 55px;
+		margin-left: 1px;
+	}
+	#message{
+		position: absolute;
+		left: 200px;
+		top: 25%;
+	}
+	input:focus ~ label {
+	bottom: 60px;
+}
+
+input:valid ~ label {
+	bottom: 60px;
+}
 }
 
 
