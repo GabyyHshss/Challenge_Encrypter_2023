@@ -588,8 +588,11 @@ input:valid ~ label {
 		}
 		#button-two{
 			position: absolute;
-			right: 21%;
+			right: 0px;
+			left: 30%;
+
 			margin-top: 10px;
+
 		}
 
 		.results{
