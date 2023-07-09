@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	
+	<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+	<link rel="stylesheet" href="./style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/e1265ba5ea.js" crossorigin="anonymous"></script>
+	<title>Encrypter V.0.1 | Gabriel Paniagua</title>
+
+</head>
+<body>
+	
+	<!-- VERTICAL HEADER -->
+	<header>
+		<!-- FIRST DIV - LOGO -->
+
+		<!-- SECOND DIV - ICONS -->
+		<div>
+			<nav>
+			<div class="orange">
+			<a class="logo" href="#">
+				<img src="Images/Lionn.png" alt="Gabriel Paniagua" >
+				<span >Gabriel Paniagua</span>
+			</a>
+			</div>
+			<!-- ICONS -->
+			<div class="kiwi">
+				<!--;;; -->
+						<div class="icons">
+						<a href="https://www.instagram.com/sgabriel_2003/" class="icon icon--instagram" target="_blank" >
+							<i class="fas fa-brands fa-instagram"></i>
+							<span class="nav-item">Instagram</span>
+						</a>
+						</div>
+						<div class="icons">
+						<a href="https://twitter.com/gabyyhshss" class="icon icon--twitter"
+						target="_blank">
+							<i class="fas fa-brands fa-twitter"></i>
+							<span class="nav-item">Twitter</span>
+						</a>
+					    </div>
+						<div class="icons">
+						<a href="https://linkedin.com/in/gabyyhshss" class="icon icon--linkedin" target="_blank">
+							<i class="fas fa-brands fa-linkedin"></i>
+							<span class="nav-item">LinkedIn</span>
+						</a>
+					    </div>
+						<div class="icons">
+
+						<a href="https://github.com/GabyyHshss" class="icon icon--github" target="_blank">
+							<i class="fas fa-brands fa-github"></i>
+							<span class="nav-item">GitHub</span>
+						</a>
+					    </div>
+
+			</div>
+			</nav>
+		</div>
+		
+	</header>
+
+	<main>
+		
+		<div class="input-field">
+			<p class="gradientText"> ENCRYPTER_</p>
+			<input 
+			type="text" required 
+			id="text">
+			<label>Enter here</label>
+		</div>
+		<div class="alert">
+			<img src="Images/vector.png">
+			<p>Only lowercase letter and no accents</p>
+		</div>
+		<div class="button">
+			<button class="uwu-one" onclick="encrypt()" id="button-one">
+				<span id="bspan-one">Encrypt</span>
+			</button>
+			<button class="uwu-two" onclick="decrypt()" id="button-two">
+				<span id="bspan-two">Decrypt</span>
+			</button>
+		</div>
+		<div class="results" id="results">
+				<h3 class="hidden-one"> ┆No messages found┆ </h3>
+				<p class="hidden-two" id="hidden-two">‑ Enter the text you want to encrypt or decrypt ‑</p>
+				<textarea type="text" class="resultado" id="resultado" readonly></textarea>
+
+		</div>
+		<button class="button-three" onclick="copy()" id="button-three">
+				<span id="bspan-three">Copy</span>
+				<span id="message"></span>
+			</button>
+		</div>
+	</main>
+	<script src="script.js"></script>
+</body>
+</html>
