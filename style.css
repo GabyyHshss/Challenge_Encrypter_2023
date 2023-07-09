@@ -636,11 +636,11 @@ input:valid ~ label {
 
 	}
 }
-@media (max-width:412px) and (max-height:850px){
+@media (max-width:412px) and (max-height:600px){
 	nav{
 		margin-top: 0;
 		position: absolute;
-		height: 18%;
+		height: 22%;
 		width: 30%;
 	}
 	.logo img{
@@ -657,17 +657,31 @@ input:valid ~ label {
 	.input-field .gradientText{
 		margin-bottom: 0;
 	}
+	.input-field input{
+	position: relative;
+	bottom: 10px;
+	height: 40px;
+	width:300px;
+	left: 18px;
+	}
 	.input-field label {
-		margin-bottom: 5px;
+		margin-bottom: 0px;
+		left: 10px;
 	}
 	.alert{
+		position: relative;
+		bottom: 80px;
+	right: 20px;
 		margin-bottom: 0;
 	}
 	.results{
+		display: none;
+		position: relative;
+		height: 15%;
 		margin-top: 20px;
 	}
 	#button-three{
-		display: inline-flex;
+		display: none;
 		position: absolute;
 		left: 5%;
 		width: 150px;
@@ -678,7 +692,7 @@ input:valid ~ label {
 		
 	}
 	#bspan-three{
-		position: absolute;
+		position: relative;
 		border-radius: 20px;
 		width: 142px;
 		height: 55px;
@@ -695,6 +709,19 @@ input:valid ~ label {
 
 input:valid ~ label {
 	bottom: 60px;
+}
+#button-one{
+	border-radius: 0;
+	
+}
+#bspan-one{
+	border-radius: 0;
+}
+#button-two{
+	border-radius: 0;
+}
+#bspan-two{
+	border-radius: 0;
 }
 }
 
