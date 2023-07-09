@@ -519,10 +519,10 @@ input:valid ~ label {
 		
 	nav{
 		display: block;
-		height: 18%;
+		height: 16%;
+		width: 29%;
 		position: absolute;
 		z-index: 10;
-		
 	 }
 	nav:hover{
 		height: 100%;
@@ -541,6 +541,14 @@ input:valid ~ label {
 		margin-top: 0px;
 		left: 12px;
 
+	}
+	.logo img{
+		width: 100px;
+		height: 100px;
+	}
+	.logo span{
+		top: 0;
+		margin-top: 10px;
 	}
 	.input-field input {
 		position: absolute;
@@ -568,7 +576,7 @@ input:valid ~ label {
 		.button {
 			position: relative;
 			right: 5%;
-
+			top: 15px;
 		}
 		.uwu-one {
 			position: absolute;
@@ -586,9 +594,10 @@ input:valid ~ label {
 
 		.results{
 			position: absolute;
-			top: 58%;
+			top: 68%;
 			margin-left:5%;
 			width: 80%;
+			height: 15%;
 		}
 		.results::before {
 			width: 150%;
@@ -599,7 +608,12 @@ input:valid ~ label {
 			bottom: 0;
 			left: 40%;
 			margin-bottom: 4%;
-			
+			width: 70px;
+			height: 70px;
+		}
+		#bspan-three{
+			font-size: 18px;
+			letter-spacing: 2px;
 		}
 
 	}
